@@ -1,0 +1,28 @@
+.gallery-container {
+  min-height: 100vh;
+  background: #faf9f5;
+  padding: 40px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 2000px;
+  margin: 0 auto;
+  grid-auto-rows: 280px;
+  grid-auto-flow: dense;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
