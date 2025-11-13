@@ -14,7 +14,7 @@ const DrawingTile = ({ drawing, onClick }) => {
         <span className="tile-id">ID {id}</span>
       </div>
       <div className="tile-image-container">
-        <img src={src} alt={`Drawing ${id}`} className="tile-image" />
+        <img src={`${process.env.PUBLIC_URL}${src}`} alt={`Drawing ${id}`} className="tile-image" />
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ const FullScreenView = ({ drawing, onClose }) => {
           </svg>
         </button>
         <div className="fullscreen-image-wrapper">
-          <img src={drawing.src} alt={`Drawing ${drawing.id}`} className="fullscreen-image" />
+          <img src={`${process.env.PUBLIC_URL}${drawing.src}`} alt={`Drawing ${drawing.id}`} className="fullscreen-image" />
         </div>
         <div className="fullscreen-info">
           <span className="fullscreen-date">{drawing.date}</span>

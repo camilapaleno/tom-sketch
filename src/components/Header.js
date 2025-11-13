@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <img src="/drawings/tm.png" alt="TM Logo" className="header-logo" />
+      <img src={`${process.env.PUBLIC_URL}/drawings/tm.png`} alt="TM Logo" className="header-logo" />
       <h1 className="header-title">sketches by tom milkowski</h1>
       <a
         href="https://instagram.com/tommilk"
