@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tom-sketch/static/css/main.378f635e.css",
+    "main.js": "/tom-sketch/static/js/main.bd7b425e.js",
+    "static/js/453.1144efa7.chunk.js": "/tom-sketch/static/js/453.1144efa7.chunk.js",
+    "index.html": "/tom-sketch/index.html",
+    "main.378f635e.css.map": "/tom-sketch/static/css/main.378f635e.css.map",
+    "main.bd7b425e.js.map": "/tom-sketch/static/js/main.bd7b425e.js.map",
+    "453.1144efa7.chunk.js.map": "/tom-sketch/static/js/453.1144efa7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.378f635e.css",
+    "static/js/main.bd7b425e.js"
+  ]
+}
